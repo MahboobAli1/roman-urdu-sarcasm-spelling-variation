@@ -26,16 +26,12 @@ Differences between TanzSVM and the linear baselines are not statistically
 significant (paired bootstrap, alpha = 0.05).
 
 ## Dataset
-`data/roman_urdu_sarcasm_synthetic_5000.csv`: 5,000 synthetic sentences
-(2,500 sarcastic / 2,500 non-sarcastic), 104 carrier templates, 846 event
-clauses, 4 spelling tiers. See `data/DATASHEET.md`.
 
-Columns: `Text`, `Canonical_Text`, `Final_Label`, `Template_ID`,
-`Group_ID`, `Variation_Level`.
+`data/roman_urdu_sarcasm_synthetic_5000.csv`: 5,000 balanced synthetic sentences (2,500 sarcastic / 2,500 non-sarcastic), generated through a guided synthesis process using 1,500 real YouTube comments collected via the YouTube API. The dataset contains 104 carrier templates, 846 topical event clauses, and 4 controlled spelling variation tiers (Standard, Light, Moderate, Heavy). See `data/DATASHEET.md`.
 
-> The dataset is synthetic. The 1,500 raw YouTube comments are unannotated
-> and not included or used in any experiment.
+**Columns:** `Text`, `Canonical_Text`, `Final_Label`, `Template_ID`, `Group_ID`, `Variation_Level`.
 
+> **:** The 1,500 raw YouTube comments were used as source data for guided synthetic dataset generation. They are unannotated and are not included directly in the 5,000-sample experimental dataset or used as model training/evaluation samples.
 ## Installation
 pip install -r requirements.txt
 
