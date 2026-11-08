@@ -44,9 +44,7 @@ python src/evaluate.py --data data/roman_urdu_sarcasm_synthetic_5000.csv \
     --seeds 42 1 2 3 4
 
 ## Limitations
-- Event clauses (Group_ID) overlap between train and test (about 98%).
-- XLM-RoBERTa was evaluated on seed 42 only; checkpoint not included.
-- Synthetic data does not capture all natural Roman Urdu discourse.
+
 
 ## Citation
 See `CITATION.cff` or:
@@ -60,4 +58,4 @@ See `CITATION.cff` or:
 Code: MIT. Dataset: CC BY 4.0.
 
 ## Contact
-Mahboob Ali - <your email>
+Mahboob Ali - <mahboobalilaghari1976@gmail.com>
