@@ -1,7 +1,7 @@
 # Robust Sarcasm Detection Under Roman Urdu Spelling Variation
 
 Code and dataset for the paper *"Robust Sarcasm Detection Under Roman Urdu
-Spelling Variation"* (Mahboob Ali, Azad Ali, Abdul Haseeb, Abdul Aziz),
+Spelling Variation"* ( Abdul Haseeb, Mahboob Ali, Azad Ali, Abdul Aziz),
 Aror University of Art, Architecture, Design and Heritage, Sukkur, Pakistan.
 
 ## Overview
